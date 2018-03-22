@@ -1,0 +1,31 @@
+* {
+	border: 0;
+	margin: 0em auto;
+	padding: 0em;
+}
+
+h1, h2, h3, h4, h5 {
+	color: green;
+	font-family: Bell MT;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+p {
+	color: gray; 
+	font-size: .8em;
+	font-family: Bookman Old Style;
+	text-align: justify;
+	line-height: 1.5em; 
+	margin-bottom: 1.5em;
+}
+
+a {
+	text-decoration: none;
+}

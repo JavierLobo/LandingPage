@@ -1,0 +1,24 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+    <name>  --..--  <role>  --..--  <social.net>  Location
+    Javier Lobo     Programador     @javixu_lobo  Seville, Andalucian, Spain    
+    								
+# THANKS
+    <name>  --..--  <social.net>
+
+# TECHNOLOGY COLOPHON
+    Standards: HTML5, CSS3
+    Components: 
+    Software: Sublime.
+
+# SITE
+    <Version>   <Create> 
+    <vX.XX.XXX> <YYYY/MM/DD> 
+    v0.00.01    2018/03/07
+
+    <Version>   <Last update> 
+
+
+/* Mira http://humanstxt.org/ES */
