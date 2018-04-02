@@ -1,31 +1,121 @@
-* {
-	border: 0;
-	margin: 0em auto;
-	padding: 0em;
+html, body, section {
+	height: 100%;
 }
 
-h1, h2, h3, h4, h5 {
-	color: green;
-	font-family: Bell MT;
+body {
+	margin: 0 auto;
+    width: 100%;
+	background: url("../img/workplace-2341642_1920.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
-h1 {
-	font-size: 1.5em;
+article {
+	padding: .5em;
+	text-align: center;
+	background: white;
 }
 
-h2 {
-	font-size: 1em;
+section {
+	line-height: 0;
+	position: relative;
+	width: 100%;
 }
 
-p {
-	color: gray; 
-	font-size: .8em;
-	font-family: Bookman Old Style;
-	text-align: justify;
-	line-height: 1.5em; 
-	margin-bottom: 1.5em;
+section article {
+	display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    justify-items: stretch;
+    align-items: stretch; 
+    mix-blend-mode: lighten;
+	background: white;
 }
 
-a {
-	text-decoration: none;
+section .celda { 
+	background: black;
+	height: 48.9vh; 
+	overflow: hidden;
+}
+
+section div:nth-of-type(2) {
+	grid-column: 2 / 4;
+}
+
+.contenedor {
+	position: relative;
+	/*
+	width: 100%;
+	top: 0;
+	/*text-align: center;*/   
+}
+
+.contact-panel {
+	display: flex;
+	flex-wrap: row wrap;
+	justify-content: space-around; /* space-between; */
+	position: relative;
+	margin-top: .5em;
+	width: 100%;
+	top: 50em;
+	transition: .5s ease;
+}
+
+.contenedor:hover .contact-panel {
+	top: 0em;
+	transition: .5s ease;
+}
+
+.contact-panel > div {
+	
+}
+
+.contact-form, .contact-social {
+	mix-blend-mode: normal;
+	background: black;
+	margin: .5em;
+	padding: .5em;
+	height: 25em;
+}
+
+.contact-form {
+	background: green;
+	width: 80em;
+}
+
+.contact-social {
+	display: inline-block;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background: cyan;
+	width: 100%;
+
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.contact-social > div {
+	-webkit-flex: 1 1 auto;
+	flex: 1 1 auto;
+
+	width: 30px;
+	height: 30px;
+
+	-webkit-transition: width 0.7s ease-out;
+	transition: width 0.7s ease-out;
+
+	margin: 1em;
+	padding: 1em;
+	background: yellow; 
+}
+
+.blend-off {
+    mix-blend-mode: normal;
 }

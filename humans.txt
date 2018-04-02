@@ -10,15 +10,16 @@
 
 # TECHNOLOGY COLOPHON
     Standards: HTML5, CSS3
-    Components: 
+    Components: Normalice
     Software: Sublime.
 
 # SITE
     <Version>   <Create> 
     <vX.XX.XXX> <YYYY/MM/DD> 
-    v0.00.01    2018/03/07
+    v0.00.01    2018/03/22
 
-    <Version>   <Last update> 
+    <Version>   <Last update>
+    v0.00.01    2018/03/23
 
 
 /* Mira http://humanstxt.org/ES */
