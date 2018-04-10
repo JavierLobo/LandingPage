@@ -54,7 +54,7 @@ section div:nth-of-type(2) {
 	/*text-align: center;*/   
 }
 
-.contact-panel {
+.contact-panel, .panel {
 	display: flex;
 	flex-wrap: row wrap;
 	justify-content: space-around; /* space-between; */
@@ -63,10 +63,13 @@ section div:nth-of-type(2) {
 	width: 100%;
 	top: 50em;
 	transition: .5s ease;
+	height: 28em;
+	background-color: #d0d3d4;
 }
 
-.contenedor:hover .contact-panel {
-	top: 0em;
+.contenedor:hover .contact-panel,
+.contenedor:hover .panel {
+	top: 1em;
 	transition: .5s ease;
 }
 
@@ -79,7 +82,6 @@ section div:nth-of-type(2) {
 	background: black;
 	margin: .5em;
 	padding: .5em;
-	height: 25em;
 }
 
 .contact-form {
