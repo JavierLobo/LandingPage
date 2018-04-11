@@ -5,11 +5,7 @@ html, body, section {
 body {
 	margin: 0 auto;
     width: 100%;
-	background: url("../img/workplace-2341642_1920.jpg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+
 }
 
 article {
@@ -22,6 +18,11 @@ section {
 	line-height: 0;
 	position: relative;
 	width: 100%;
+		background: url("../img/workplace-2341642_1920.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 section article {
@@ -64,7 +65,8 @@ section div:nth-of-type(2) {
 	top: 50em;
 	transition: .5s ease;
 	height: 28em;
-	background-color: #d0d3d4;
+	background-color: #f2f3f4 ;
+	opacity: .5;
 }
 
 .contenedor:hover .contact-panel,
@@ -91,6 +93,7 @@ section div:nth-of-type(2) {
 
 .contact-social {
 	display: inline-block;
+	overflow: auto;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	background: cyan;
@@ -107,15 +110,26 @@ section div:nth-of-type(2) {
 	-webkit-flex: 1 1 auto;
 	flex: 1 1 auto;
 
-	width: 30px;
-	height: 30px;
+	/*width: 20%;
+	height: 90px; */
 
 	-webkit-transition: width 0.7s ease-out;
 	transition: width 0.7s ease-out;
 
 	margin: 1em;
 	padding: 1em;
-	background: yellow; 
+	
+	background: rgb(46, 94, 207);
+	background: -moz-linear-gradient(30deg, rgb(46, 94, 207) 20%, rgb(90, 140, 250) 80%);
+	background: -webkit-linear-gradient(30deg, rgb(46, 94, 207) 20%, rgb(90, 140, 250) 80%);
+	background: -o-linear-gradient(30deg, rgb(46, 94, 207) 20%, rgb(90, 140, 250) 80%);
+	background: -ms-linear-gradient(30deg, rgb(46, 94, 207) 20%, rgb(90, 140, 250) 80%);
+	background: linear-gradient(120deg, rgb(46, 94, 207) 20%, rgb(90, 140, 250) 80%);
+}
+
+
+.contact-social > div a { 
+	font-size: 96px;
 }
 
 .blend-off {
