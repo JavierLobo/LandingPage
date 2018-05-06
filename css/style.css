@@ -5,13 +5,6 @@ html, body, section {
 body {
 	margin: 0 auto;
     width: 100%;
-
-}
-
-article {
-	padding: .5em;
-	text-align: center;
-	background: white;
 }
 
 section {
@@ -25,7 +18,7 @@ section {
 	background-size: cover;
 }
 
-section article {
+article {
 	display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 1fr 1fr;
@@ -35,11 +28,13 @@ section article {
     align-items: stretch; 
     mix-blend-mode: lighten;
 	background: white;
+	padding: .2em;
+	text-align: center;
 }
 
-section .celda { 
+.celda { 
 	background: black;
-	height: 48.9vh; 
+	height: 48.9vh;
 	overflow: hidden;
 }
 
@@ -55,23 +50,26 @@ section div:nth-of-type(2) {
 	/*text-align: center;*/   
 }
 
+.panel {
+    
+}
+
 .contact-panel, .panel {
 	display: flex;
 	flex-wrap: row wrap;
 	justify-content: space-around; /* space-between; */
 	position: relative;
-	margin-top: .5em;
 	width: 100%;
 	top: 50em;
 	transition: .5s ease;
 	height: 28em;
 	background-color: #f2f3f4 ;
-	opacity: .5;
+	/*opacity: .5;*/
 }
 
 .contenedor:hover .contact-panel,
 .contenedor:hover .panel {
-	top: 1em;
+	top: 0;
 	transition: .5s ease;
 }
 
@@ -102,8 +100,8 @@ section div:nth-of-type(2) {
 	display: -webkit-flex;
 	-webkit-flex-direction: row;
 
-	display: flex;
-	flex-direction: row;
+	/*display: flex;
+	flex-direction: row;*/
 }
 
 .contact-social > div {
