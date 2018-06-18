@@ -9,17 +9,8 @@
     <name>  --..--  <social.net>
 
 # TECHNOLOGY COLOPHON
-    Standards: HTML5, CSS3
-    Components: Normalice
-    Software: Sublime.
-
-# SITE
-    <Version>   <Create> 
-    <vX.XX.XXX> <YYYY/MM/DD> 
-    v0.00.01    2018/03/22
-
-    <Version>   <Last update>
-    v0.00.01    2018/03/23
-
+    Standards: HTML5, CSS3, JSCRIPT
+    Components: Normalice, Bootstrap 4
+    Software: Sublime, Visul Studio Code
 
 /* Mira http://humanstxt.org/ES */
