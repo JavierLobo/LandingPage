@@ -34,10 +34,35 @@
 	<div id="hero" class="jumbotron text-center">
 		<h1>Plantilla de ejemplo</h1>
 		<p>Resize this responsive page to see the effect!</p>
-	</div>	
+	</div>
 	
-	<nav>
-		
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+		<!-- Por lo que se ve aqui van el logotipo y el icono del menu desplegable -->
+		<a href="#" class="navbar-brand">Logotipo</a>
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target" > 
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<!-- Y ahora vienen los enlaces del menú de navegación-->
+		<div id="collapse_target" class="collapse navbar-collapse pull-sm-right">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+						<a href="#" class="nav-link"><span class="glyphicon glyphicon-home"></span> Inicio</a>
+						</li>
+						<li class="nav-item">
+						<a href="#Proyectos" class="nav-link"><span class="glyphicon glyphicon-briefcase"></span> Proyectos</a>
+						</li>
+						<li class="nav-item">
+						<a href="#Contacto" class="nav-link"><span class="glyphicon glyphicon-envelope"></span> Contacto</a>
+						</li>
+						<li class="nav-item">
+						<a href="#Acerca" class="nav-link"><span class="glyphicon glyphicon-bookmark"></span> Acerca</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
 	</nav>
 
 	<div id="sec-body">
@@ -142,34 +167,10 @@
 						<li><a href="#">Opcion 5</a></li>
 					</ul>
 				</div>
-				<div id="social" class="p-2 d-flex justify-content-center col-xs-12 col-lg-3">
-					<div class="">
-						<a href="https://www.facebook.com/javixulobo" target="_blank"><i class="fab fa-facebook-square"></i></a>
-					</div>
-					<div class="">
-						<a href="https://twitter.com/Javixu_lobo" target="_blank"><i class="fab fa-twitter-square"></i></a>
-					</div>
-					<div class="">
-						<a href="https://www.linkedin.com/in/fcojavierlobo/" target="_blank"><i class="fab fa-linkedin"></i></a>
-					</div>
-					<div class="">
-						<a href="https://www.youtube.com/channel/UCNmaG_xs1qj8ELUOJw97cZA?view_as=subscriber" target="_blank"><i class="fab fa-youtube"></i></a>
-					</div>
-					<div class="">
-						<a href="https://github.com/JavierLobo" target="_blank"><i class="fab fa-github-square"></i></a>
-					</div>
-					<div class="">
-						<a href="https://gitlab.com/JavierLobo" target="_blank"><i class="fab fa-gitlab"></i></a>
-					</div>
-					<div class="">
-						<a href="https://www.codewars.com/users/JavierLobo" target="_blank"><i class="fas fa-code-branch"></i></a>
-					</div>
-				</div>
 			</div>
 		</div>
 
 		<div id="tecnologia" class="container-fluid d-flex justify-content-center align-items-baseline ">
-				
 			<div><P>Tecnologías: </P></div>
 			<div><h6><a href="">HTML5</a></h6></div>
 			<div><h6><a href="">CSS3</a></h6></div>
