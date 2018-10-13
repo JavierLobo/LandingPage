@@ -43,16 +43,36 @@ body {
 }
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+    body {
+        background-image: url('https://picsum.photos/g/400?gravity');
+    }
+}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+    body {
+        background-image: url('https://picsum.photos/g/550?gravity');
+    }
+}
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+    body {
+        background-image: url('https://picsum.photos/g/750?gravity');
+    }
+}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+    body {
+        background-image: url('https://picsum.photos/g/1000?gravity');
+    }
+}
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    body {
+        background-image: url('https://picsum.photos/g/1200?gravity');
+    }
+}
