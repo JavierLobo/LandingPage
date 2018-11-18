@@ -14,6 +14,11 @@ body {
     height: 100vh !important;
 }
 
+#phraseday p {
+    font-size: 14px;
+    text-align: center;
+}
+
 #contacto {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -61,6 +66,10 @@ body {
     body {
         background-image: url('https://picsum.photos/g/750?gravity');
     }
+
+    #phraseday p {
+        font-size: 2vw;
+    }
 }
 
 /* Larger than desktop */
@@ -68,11 +77,19 @@ body {
     body {
         background-image: url('https://picsum.photos/g/1000?gravity');
     }
+    
+    #phraseday p {
+        font-size: 1.5vw;
+    }
 }
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
     body {
         background-image: url('https://picsum.photos/g/1200?gravity');
+    }
+
+    #phraseday p {
+        font-size: 1.25vw;
     }
 }
