@@ -47,6 +47,10 @@ body {
     margin-bottom: 0;
 }
 
+.hide {
+    display: none !important;
+}
+
 /* Larger than mobile */
 @media (min-width: 400px) {
     body {
