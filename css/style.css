@@ -26,6 +26,13 @@
      * Colores Básicos
      ********************************************/
     --background-color: var(--shade-cadet-blue-1, #669999);
+    
+    /*
+     * Formulario
+     ********************************************/
+    --bgc-form: var(--shade-cadet-blue-5, #2A3E3E);
+    --color-form: var(--tint-cadet-blue-5, #C1D5D5);
+
 }
 
 body {
