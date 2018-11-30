@@ -1,3 +1,33 @@
+:root {
+    /*
+     * Colores Básicos https://www.htmlcsscolor.com/hex/669999
+     ********************************************/
+    --shade-cadet-blue-1: #669999;
+    --shade-cadet-blue-2: #527A7A;
+    --shade-cadet-blue-3: #426262;
+    --shade-cadet-blue-4: #354E4E;
+    --shade-cadet-blue-5: #2A3E3E;
+    --shade-cadet-blue-6: #223232;
+    --shade-cadet-blue-7: #1B2828;
+    --shade-cadet-blue-8: #162020;
+
+    --tint-cadet-blue-1: #669999;
+    --tint-cadet-blue-2: #85ADAD;
+    --tint-cadet-blue-3: #9DBDBD;
+    --tint-cadet-blue-4: #B1CACA;
+    --tint-cadet-blue-5: #C1D5D5;
+    --tint-cadet-blue-6: #CDDDDD;
+    --tint-cadet-blue-7: #D7E4E4;
+    --tint-cadet-blue-8: #DFE9E9;
+
+    --cCadet-Blue: #669999;
+
+    /*
+     * Colores Básicos
+     ********************************************/
+    --background-color: var(--shade-cadet-blue-1, #669999);
+}
+
 body {
     /*
      * Colocamos de fondo una imagen que reescalará dependiendo del dispositivo
