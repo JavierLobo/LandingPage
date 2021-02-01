@@ -2,8 +2,8 @@
 # The humans responsible & technology colophon
 
 # TEAM
-    <name>  --..--  <role>  --..--  <social.net>  Location
-    Javier Lobo     Programador     @javixu_lobo  Seville, Andalucian, Spain    
+    <name>  --..--  <role>  --..--  <social.net>  --..--            Location
+    Javier Lobo     Programmer      www.linkedin.com/in/javixulobo  Seville, Andalucian, Spain    
     								
 # THANKS
     <name>  --..--  <social.net>
@@ -11,6 +11,6 @@
 # TECHNOLOGY COLOPHON
     Standards: HTML5, CSS3, JSCRIPT
     Components: Normalice, Bootstrap 4
-    Software: Sublime, Visul Studio Code
+    Software: Visul Studio Code
 
 /* Mira http://humanstxt.org/ES */
